@@ -188,13 +188,13 @@ body {
 .p-btn {
   background-color: var(--primary-color);
   color: var(--main-bg);
-  padding: 0.8rem;
+  padding: 0.75rem;
   font-size: 1rem;
   font-family: var(--font-2);
   font-weight: 500;
   border: none;
   outline: none;
-  border-radius: 0.4rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 .p-btn:hover {
@@ -206,7 +206,7 @@ body {
   color: var(--secondary-color);
   font-family: var(--font-2);
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .link-cta:hover {
   color: var(--hover2);
@@ -225,6 +225,11 @@ body {
   }
 }
 /*Media Query for default screen*/
+@media (max-width: 1050px) {
+  .introduction .my-role {
+    font-size: 3.5vw;
+  }
+}
 @media (max-width: 919px) {
   .illustration-dev {
     display: none;
@@ -233,7 +238,7 @@ body {
     text-align: center;
   }
   .introduction .my-role {
-    font-size: 5.7vw;
+    font-size: 5.5vw;
   }
   .introduction .small-text {
     font-size: 5vw;
@@ -246,6 +251,23 @@ body {
   }
 }
 /*Media Query for small devices*/
+@media (max-width: 550px) {
+  .nav-logo img, .owner {
+    width: 2.125rem;
+  }
+  .menu-cta span i {
+    font-size: 1.5rem;
+  }
+  .socials a {
+    font-size: 1.5rem;
+  }
+  .p-btn {
+    font-size: 0.7rem;
+  }
+  .link-cta {
+    font-size: 0.7rem;
+  }
+}
 @media (max-width: 411px) and (min-width: 320px) {
   .primary-header {
     padding: 1.2rem 8%;
@@ -258,5 +280,11 @@ body {
   }
   .link-cta {
     font-size: 0.7rem;
+  }
+  .overlay .close i {
+    font-size: 1.5rem;
+  }
+  .mobile_nav a {
+    font-size: 1rem;
   }
 }
