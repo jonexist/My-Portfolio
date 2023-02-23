@@ -1,3 +1,4 @@
+/*Code for Navigation menu*/
 const doc = document;
 const menuOpen = doc.querySelector(".menu-cta");
 const menuClose = doc.querySelector(".close");
