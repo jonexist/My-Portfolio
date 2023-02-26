@@ -192,7 +192,6 @@ body {
   border: none;
   outline: none;
   border-radius: 0.5rem;
-  cursor: pointer;
 }
 .p-btn:hover {
   background-color: var(--hover);
