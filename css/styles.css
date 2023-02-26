@@ -43,7 +43,6 @@ body {
   font-family: var(--font-2);
   font-weight: 800;
   font-size: 1.5rem;
-  cursor: pointer;
 }
 .owner > a {
   text-decoration: none;
